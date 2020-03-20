@@ -11,6 +11,7 @@
     "start": "live-server"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "live-server": "^1.2.1"
   }
 }
