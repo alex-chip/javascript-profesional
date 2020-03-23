@@ -1,6 +1,6 @@
-import MediaPlayer from './MediaPlayer.js';
-import AutoPlay from './plugins/AutoPlay.js';
-import AutoPause from './plugins/AutoPause.js';
+import MediaPlayer from './MediaPlayer';
+import AutoPlay from "./plugins/AutoPlay";
+import AutoPause from './plugins/AutoPause';
 
 const video = document.querySelector('video');
 const player = new MediaPlayer({ el: video, plugins: [
@@ -9,8 +9,8 @@ const player = new MediaPlayer({ el: video, plugins: [
 ] });
 
 // obteniendo los botones de controles
-const play = document.getElementById('play');
-const mute = document.getElementById('mute');
+const play: HTMLElement = document.getElementById('play');
+const mute: HTMLElement = document.getElementById('mute');
 
 
 play.onclick = () => player.togglePlay();
