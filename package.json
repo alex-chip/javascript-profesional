@@ -8,7 +8,7 @@
     "platzi"
   ],
   "scripts": {
-    "start": "parcel index.html ejercicios/index.html ejercicios/index.html ejercicios/**/*.html"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html ejercicios/**/**/*.html"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
