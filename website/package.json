@@ -18,5 +18,8 @@
   "browserlist": [
     "last 1 Chrome version",
     "last 1 Firefox version"
-  ]
+  ],
+  "dependencies": {
+    "@alex_chip/platzimediaplayer": "^1.0.0"
+  }
 }
